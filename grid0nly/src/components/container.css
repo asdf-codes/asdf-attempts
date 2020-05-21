@@ -1,0 +1,38 @@
+.container-grid {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    padding: 1rem
+}
+
+.container-grid-item {
+    text-justify: center;
+    background: #FFFFFF;
+    border: 0.3px solid #BDBDBD;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.05);
+    background-image: ;
+
+}
+
+.container-grid-item-0 {
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
+    background-color: black;
+}
+
+.container {
+    background-color: #333;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.draggable {
+    padding: 1rem;
+    cursor: grab;
+}
+
+.draggable.dragging {
+    opacity: .9;
+}
